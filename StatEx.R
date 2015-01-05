@@ -1,7 +1,6 @@
-logLik.lm <- function(object, REML = FALSE, ...)
-{
+logLik.lm <- function(object, REML = FALSE, ...){
   # log likelihood function for mlm objects, i.e. lm with multiple responses
-  # modified from logLik.lm to handle multiple response lm (mlm) object 
+  # enhancement of stats::logLik to handle multiple response lm object 
   # reference: https://github.com/lgautier/R-3-0-branch-alt/blob/master/src/library/stats/R/logLik.R
   # version 1.0, 20150103, YF Li
 
